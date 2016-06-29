@@ -195,8 +195,7 @@
             ele.attr("id", "imgr_" + index + "_" + time)
                 .addClass(imgrrClass)
                 .css({
-                    "opacity": "0.05",
-                    "background-color": "grey",
+                    "background-color": "white",
                     "min-height": (ele.height() || 150) + "px",
                     "min-width": (ele.width() || 150) + "px",
                 });
