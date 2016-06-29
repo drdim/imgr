@@ -6,7 +6,7 @@
     /**
      * The event to be handled which will trigger the check if the element is on screen.
      */
-    var evToBind = "touchmove.imgr mousewheel.imgr";
+    var evToBind = "scroll touchmove.imgr mousewheel.imgr";
     /**
      * The class to denote that an element has to be included in the imgr process.
      * @type {String}
