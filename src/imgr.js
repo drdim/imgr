@@ -196,12 +196,12 @@
                 .addClass(imgrrClass)
                 .css({
                     "background-color": "white",
-                    "min-height": (ele.height() || 150) + "px",
-                    "min-width": (ele.width() || 150) + "px",
+                    "min-height": (ele.height() || 240) + "px",
+                    "min-width": (ele.width() || 200) + "px",
                 });
 
             if (!ele.width()) {
-                ele.css("min-width", "100px");
+                ele.css("min-width", "200px");
             }
         });
         if (!elements.length) {
