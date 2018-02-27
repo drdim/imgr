@@ -196,7 +196,7 @@
                 .addClass(imgrrClass)
                 .css({
                     "background-color": "white",
-                    "min-height": (ele.height() || 240) + "px",
+                    // "min-height": (ele.height() || 240) + "px",
                     "min-width": (ele.width() || 200) + "px"
                 });
 
